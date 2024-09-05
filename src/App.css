@@ -1,3 +1,26 @@
+@import './colours.css';
+
+body {
+  background-color: var(--body-bg) !important;
+  color: var(--body-color) !important;
+}
+
+.mainpage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainbanner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+  height: 50vh;
+}
+
 .App {
   text-align: center;
 }
