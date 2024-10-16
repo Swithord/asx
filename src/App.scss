@@ -13,9 +13,17 @@ body {
   gap: 1rem;
 }
 
-.logo {
-  height: 3rem;
-}
+.navbar {
+  &__logo-wrapper {
+    width: fit-content;
+  }
+  &__logo {
+    max-height: 3rem;
+    @media (max-width: 500px) {
+      max-height: 2.5rem;
+    }
+  }
+} 
 
 .hero-banner {
   display: flex;
@@ -51,12 +59,20 @@ body {
     font-family:'Palatino';
     color: var(--secondary-color);
     vertical-align: middle;
+
+    @media (max-width: 500px) {
+      font-size: 4rem;
+    }
   }
   &__text {
     font-size: 1.5rem;
     padding: 1rem;
     color: var(--primary-color);
     text-align: center;
+
+    @media (max-width: 500px) {
+      font-size: 1.2rem;
+    }
   }
 }
 
