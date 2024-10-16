@@ -1,13 +1,14 @@
 import { Container } from 'react-bootstrap';
+import HeroBanner from '../components/herobanner';
+import AboutUs from '../components/aboutus';
+import Latest from '../components/latest';
 
 export default function MainPage() {
     return (
-        <Container className={"mainpage"}>
-            <Container className={"mainbanner pt-2"}>
-                <h1>ASX</h1>
-                <h4>UofT's astronomy outreach club</h4>
-            </Container>
-            <h2>Our Events</h2>
-        </Container>
+        <div className={"main"}>
+            <HeroBanner />
+            <AboutUs />
+            <Latest />
+        </div>
     )
 }
