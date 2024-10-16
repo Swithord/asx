@@ -57,6 +57,10 @@ body {
   gap: 1rem;
   align-items: center;
 
+  @media (max-width: 500px) {
+    gap: 0;
+  }
+
   &__quotation {
     padding-top: 1rem;
     font-size: 6rem;
@@ -105,11 +109,11 @@ body {
     &__img {
       height: 100%;
       object-fit: cover;
-      opacity: 0.5;
+      opacity: 0.4;
     }
 
     &__title {
-      font-size: 1.5rem !important;
+      font-size: 1.8rem !important;
       color: var(--primary-color) !important;
     }
 
