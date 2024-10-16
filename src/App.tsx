@@ -6,6 +6,7 @@ import MainPage from "./pages/main";
 import AboutPage from "./pages/about";
 import EventsPage from "./pages/events";
 import ASXNavbar from "./components/navbar";
+import Footer from "./components/footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
 				<Route path="/about" element={<AboutPage />} />
 				<Route path="/events" element={<EventsPage />} />
 			</Routes>
+		<Footer />
 	</BrowserRouter>
   );
 }

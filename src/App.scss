@@ -45,6 +45,10 @@ body {
     font-size: 1.5rem;
     // color: var(--secondary-color);
   }
+
+  @media (max-width: 500px) {
+    height: 35vh;
+  }
 }
 
 .about{
@@ -74,6 +78,50 @@ body {
       font-size: 1.2rem;
     }
   }
+}
+
+.events {
+  &__carousel {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    @media (max-width: 500px) {
+      flex-direction: column;
+    }
+  }
+  &__card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 20rem !important;
+    overflow: hidden;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    transition: transform 0.2s;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    &__img {
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.5;
+    }
+
+    &__title {
+      font-size: 1.5rem !important;
+      color: var(--primary-color) !important;
+    }
+
+    &__description {
+      font-size: 1rem !important;
+      color: var(--text-color) !important;
+    }
+  }
+}
+
+.social-button {
+  color: var(--secondary-color) !important;
 }
 
 .App {
