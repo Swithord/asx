@@ -13,8 +13,8 @@ export default function ASXNavbar() {
             </Navbar.Brand>
             <Nav className="mr-auto">
                 <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/news">Events</Nav.Link>
-                <Nav.Link href="/events">Sponsorship</Nav.Link>
+                <Nav.Link href="/events">Events</Nav.Link>
+                <Nav.Link href="/sponsor">Sponsorship</Nav.Link>
                 <Nav.Link href="/about">About</Nav.Link>
             </Nav>
         </Navbar>

@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainPage from "./pages/main";
 import AboutPage from "./pages/about";
-import NewsPage from "./pages/news";
+import EventsPage from "./pages/events";
 import ASXNavbar from "./components/navbar";
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
 			<Routes>
 				<Route path="/" element={<MainPage />} />
 				<Route path="/about" element={<AboutPage />} />
-				<Route path="/news" element={<NewsPage />} />
+				<Route path="/events" element={<EventsPage />} />
 			</Routes>
 	</BrowserRouter>
   );

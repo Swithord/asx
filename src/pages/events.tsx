@@ -1,9 +1,9 @@
 import { Container } from 'react-bootstrap';
 
-export default function NewsPage() {
+export default function EventsPage() {
     return (
         <Container>
-            <h1>News</h1>
+            <h1>Events</h1>
             <p>lorem ipsum.</p>
         </Container>
     )
