@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/asx/static/css/main.25fae702.css",
+    "main.js": "/asx/static/js/main.05ca9016.js",
+    "static/js/453.0cc6cd0b.chunk.js": "/asx/static/js/453.0cc6cd0b.chunk.js",
+    "index.html": "/asx/index.html",
+    "main.25fae702.css.map": "/asx/static/css/main.25fae702.css.map",
+    "main.05ca9016.js.map": "/asx/static/js/main.05ca9016.js.map",
+    "453.0cc6cd0b.chunk.js.map": "/asx/static/js/453.0cc6cd0b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.25fae702.css",
+    "static/js/main.05ca9016.js"
+  ]
+}
