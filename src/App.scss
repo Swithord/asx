@@ -124,6 +124,15 @@ body {
   color: var(--secondary-color) !important;
 }
 
+.footer{
+  &__logo {
+    max-height: 5rem;
+    @media (max-width: 500px) {
+      max-height: 3rem;
+    }
+  }
+}
+
 .App {
   text-align: center;
 }
