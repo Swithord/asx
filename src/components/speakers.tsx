@@ -1,5 +1,6 @@
 import { Container, Image } from 'react-bootstrap';
-import Slider from "react-slick";
+import chrishadfield from '../assets/chrishadfield.jpg';
+import michaelbrown from '../assets/michaelbrown.png';
 
 interface SpeakerProps {
     name: string;
@@ -23,12 +24,12 @@ export default function Speakers() {
         {
             name: 'Chris A. Hadfield',
             bio: 'Canadian Astronaut',
-            imageUrl: 'https://via.placeholder.com/150'
+            imageUrl: chrishadfield
         },
         {
             name: 'Michael E. Brown',
             bio: 'Astronomer',
-            imageUrl: 'https://via.placeholder.com/150'
+            imageUrl: michaelbrown
         },
         {
             name: 'Darlene Lim',
