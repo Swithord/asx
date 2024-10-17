@@ -41,6 +41,7 @@ export default function Events() {
     return (
         <Container className="events">
             <h1>Events</h1>
+            <h5>We organise a variety of events to engage with the community and share our passion for space. Our regular events are open to the public without registration, and our Annual Symposium is free for secondary and post-secondary students.</h5>
             <div className="events__carousel">
               {events.map((event, index) => (
                 <EventCard

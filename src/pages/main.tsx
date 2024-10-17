@@ -15,8 +15,8 @@ export default function MainPage() {
             <Events />
             <AboutUs />
             <Speakers />
-            <div className="main__join-button__wrapper">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLScbjRnREhkQ-Mjv-mw8uGO5Jm03D7NjZTL_pEZQKMw2afP3Aw/viewform" target="_blank" rel="noopener noreferrer" className="main__join-button">Become a Member</a>
+            <div className="main-button__wrapper">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScbjRnREhkQ-Mjv-mw8uGO5Jm03D7NjZTL_pEZQKMw2afP3Aw/viewform" target="_blank" rel="noopener noreferrer" className="main-button">Become a Member</a>
             </div>
             
         </div>
