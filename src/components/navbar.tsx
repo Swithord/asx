@@ -4,7 +4,7 @@ import logo from '../assets/asx_logo.jpg';
 export default function ASXNavbar() {
     return (
         <Navbar bg="transparent" variant="dark" expand="lg" className={"px-4"}>
-            <Navbar.Brand href="#home" className="navbar__logo-wrapper">
+            <Navbar.Brand href="/" className="navbar__logo-wrapper">
                 <img src="https://asx.sa.utoronto.ca/files/2022/07/cropped-full_white_new.png" className={"navbar__logo"} />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
