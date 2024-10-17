@@ -35,7 +35,7 @@ export default function Events() {
         {
             image: startalk,
             title: 'StarTalk',
-            description: 'Accessible, engaging lectures on a variety of topics in astronomy and space, delivered by UofT researchers and beyond.'
+            description: 'Accessible, engaging lectures on a variety of topics in astronomy and space, delivered by researchers from UofT and beyond.'
         }
     ];
     return (
