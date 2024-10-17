@@ -25,17 +25,17 @@ export default function Events() {
         {
             image: symposium,
             title: 'Symposium',
-            description: 'Description'
+            description: 'Our signature event-- an annual symposium on the latest in space research, featuring distinguished speakers from the field.'
         },
         {
             image: obs,
             title: 'Observation Night',
-            description: 'Description'
+            description: "An exclusive opportunity to visit McLennan's rooftop observatory and observe celestial objects through telescopes."
         },
         {
             image: startalk,
             title: 'StarTalk',
-            description: 'Description'
+            description: 'Accessible, engaging lectures on a variety of topics in astronomy and space, delivered by UofT researchers and beyond.'
         }
     ];
     return (
