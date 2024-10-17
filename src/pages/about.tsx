@@ -82,12 +82,15 @@ export default function AboutPage() {
                 </div>
             </div>
             <div className="about__description">
+                <p>ASX is a non-profit organization run by the University of Toronto undergraduate space community.</p>
                 <p>
-                Since its inception in 2003, ASX has rapidly grown to over 1200 members, and has organized and hosted 10 or more events per year, attracting hundreds of event attendees each year. ASX’s signature event is the Annual Symposium, which has attracted an audience of up to 500 people in a single event. Other events include the “Star Talk” Lecture Series, Panel Discussions, Observing Nights, and Science Competitions. Topics of discussion have covered various facets of space, such as ‘Mars: The Quest for Human Habitat’, ‘Life: Not As We Know It’, ‘Cosmology from the Stratosphere’, and ‘Space Business’.
+                Since its inception in 2003, ASX has rapidly grown, organising numerous high-profile events with distinguished speakers, including astronauts, astronomers, and space entrepreneurs. ASX has also established partnerships with various organizations, including the Royal Astronomical Society of Canada, the Canadian Space Society, and the Canadian Space Agency.
                 </p>
                 <p>
                 ASX is continuously seeking support from sponsors, new partnerships and collaborations, and distinguished speakers, in order to continue educating, exciting, and inspiring today’s society about astronomy and space exploration.
                 </p>
+                <h4>Want to join us?</h4>
+                <p>If you are a University of Toronto undergraduate student and would like to become part of the team, you can run for any of the positions listed below (position responsibilities are outlined in our constitution). We hold elections for upcoming members near the end of the academic year, so come to our events and get to know us until then!</p>
             </div>
             <div className="main-button__wrapper">
                 <a className="main-button" href="http://asx.sa.utoronto.ca/files/2022/08/ASX-Constitution-2022.pdf" target="_blank" rel="noopener noreferrer">Our Constitution</a>
