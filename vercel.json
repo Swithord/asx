@@ -1,7 +1,7 @@
 {
     "redirects": [
       {
-        "source": "https://symposium.utasx.ca",
+        "source": "/symposium",
         "destination": "https://www.eventbrite.com/e/asx-21st-symposium-cosmic-whispers-tickets-1250958995029",
         "permanent": true
       }
