@@ -6,7 +6,7 @@ body {
 }
 
 .main-button {
-  background-color: var(--tertiary-color);
+  background-color: var(--secondary-color);
   color: var(--text-color);
   border: none;
   padding: 1rem;
@@ -26,7 +26,7 @@ body {
   }
 
   &:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
   }
 }
 
@@ -177,7 +177,7 @@ body {
     height: 100% !important;
     background-color: var(--secondary-color) !important;
     &-title {
-      color: var(--text-color) !important;
+      color: var(--primary-color) !important;
       font-size: 2rem !important;
     }
     &-description {
@@ -215,10 +215,6 @@ body {
       height: 13rem;
       object-fit: cover;
       border-radius: 50%;
-    }
-
-    &-title {
-      color: var(--primary-color);
     }
 
     &-description {
@@ -318,10 +314,6 @@ body {
       height: 9rem;
       object-fit: cover;
       border-radius: 50%;
-    }
-
-    &-title {
-      color: var(--primary-color);
     }
 
     &-description {
